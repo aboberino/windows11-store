@@ -1,0 +1,31 @@
+.app-card-main {
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-card-main > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.app-card-name {
+    font-size: small;
+    font-weight: bold;
+}
+
+.app-card-type, .app-card-ratingNumber{
+    font-size: x-small;
+    color: gray;
+}
+
+.app-card-rating {
+    display: flex;
+    align-items: center;
+}

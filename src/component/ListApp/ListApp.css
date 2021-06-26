@@ -1,0 +1,21 @@
+.list-app-main {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.list-app-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-app-more {
+    font-size: small;
+    cursor: pointer;
+}
+
+.list-app-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}

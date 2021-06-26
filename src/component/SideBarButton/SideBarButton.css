@@ -1,0 +1,42 @@
+.button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 5px;
+    position: relative;
+    justify-content: center;
+}
+
+.button-selected {
+    background-color: #FFFFFF;
+    /* margin-top: 6px; */
+}
+
+.selected {
+    height: 18px;
+    width: 3px;
+    border-radius: 1px;
+    background-color: #166CB3;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease;
+}
+
+.icon {
+    position: absolute;
+    transform: translate(-1px, 2px);
+}
+
+.buttonzdz {
+    font-size: 8px;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 42px; 
+    text-overflow: ellipsis;
+}
